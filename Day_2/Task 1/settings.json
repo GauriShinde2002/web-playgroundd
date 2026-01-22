@@ -1,0 +1,61 @@
+{
+    // Main editor
+    "editor.fontSize": 18,
+
+    // Terminal panel
+    "terminal.integrated.fontSize": 14,
+
+    // Output panel
+    "[Log]": {
+        "editor.fontSize": 15
+    },
+
+    "window.zoomLevel": 5,
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+
+    "files.autoSave": "afterDelay",
+
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "all",
+
+    "files.exclude": {
+        "somefolder/": true,
+        "somefile": true
+    },
+
+    "search.exclude": {
+        "someFolder/": true,
+        "somefile": true
+    },
+
+    "[languageid]": {},
+
+    "json.schemas": [
+        {
+            "fileMatch": ["bower.json"],
+            "url": "https://json.schemastore.org/bower"
+        },
+        {
+            "fileMatch": ["**/foo.json"],
+            "url": "./myschema.json"
+        },
+        {
+            "fileMatch": ["/.myconfig"],
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the entry"
+                    }
+                }
+            }
+        }
+    ]
+}

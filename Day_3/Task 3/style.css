@@ -1,0 +1,54 @@
+<style>
+    /* Type selector */
+    p {
+      color: blue;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Class selector */
+    .highlight {
+      color: green;
+    }
+
+    /* ID selector */
+    #special {
+      color: red;
+    }
+
+    /* Attribute selector */
+    input[type="text"] {
+      border: 2px solid purple;
+      padding: 5px;
+    }
+
+    /* Box model demo */
+    .box {
+      width: 200px;
+      padding: 20px;
+      border: 5px solid orange;
+      margin: 15px;
+      background-color: lightyellow;
+    }
+
+    /* Cascade + specificity */
+    p {
+      color: blue; /* low specificity */
+    }
+    .highlight {
+      color: green; /* medium specificity */
+    }
+    #special {
+      color: red; /* high specificity */
+    }
+    .override {
+      color: black !important; /* overrides all */
+    }
+
+    /* Inheritance demo */
+    body {
+      color: purple; /* inherited by text elements */
+    }
+    .no-inherit {
+      color: initial; /* resets inheritance */
+    }
+  </style>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <style>
+        body {
+            background-color: lightpink;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: lightcoral;
+            color: cornflowerblue;
+            text-align: center;
+            font-size: 8vw; /* scales with screen width */
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: blueviolet;
+            font-size: 2em;
+            margin: 20px 10px;
+        }
+
+        p {
+            color: black;
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+            padding: 0 15px;
+            line-height: 1.6;
+        }
+
+        img {
+            display: block;
+            max-width: 100%; /* responsive image */
+            height: auto;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+
+        h3 {
+            text-align: left;
+            margin-left: 20px;
+            color: darkslateblue;
+        }
+
+        ol {
+            max-width: 600px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+
+        nav a {
+            display: inline-block;
+            background-color: cornflowerblue;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: darkblue;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 1.2em;
+            font-style: oblique;
+            font-weight: bold;
+            padding: 20px;
+            background-color: lightcoral;
+            color: white;
+        }
+
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            header {
+                font-size: 12vw;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            p {
+                font-size: 0.95em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                font-size: 14vw;
+                padding: 10px;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            nav a {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>BOOK STORE</header>
+    <h2><strong>Welcome Everyone...</strong></h2>
+    <p>Welcome to our Book Haven, a cozy space where 
+        stories come alive and knowledge finds a home.
+        We offer a carefully curated collection of books across genres—fiction,
+        non-fiction, self-help, academic texts, and children’s literature.
+    </p>
+
+    <img src="https://media.istockphoto.com/id/1222563369/photo/bookstore-shop-exterior-with-books-and-textbooks-in-showcase.jpg?s=1024x1024&w=is&k=20&c=nJwm6JxOPIephzEQLAzC7NQD_eQaItyT8Y-zxMKaqPA=" alt="Bookstore exterior">
+
+    <h3>Book List</h3>
+    <ol>
+        <li>"Atomic Habits" by James Clear</li>
+        <li>"The 5 AM Club" by Jim Rohn</li>
+        <li>"Great On Kindle" by Various Authors</li>
+        <li>Chanakya Neeti with Sutras of Chanakya by Napoleon Hill</li>
+        
+    </ol>
+
+    <nav>
+        <a href="https://www.scribd.com/document/982204302/Complete-Chanakya-Neeti-A-Life-Management-Sutra-English-Knowhow-To-Get-Success-In-Life-Success-Management-Tips-By-Acharya-Chanakya-Jain-ebook-power-re">
+             Chanakya Neeti Book 
+        </a>
+    </nav>
+
+    <footer>Book Store by Gauri...<br>...THANK YOU....</footer>
+</body>
+</html>

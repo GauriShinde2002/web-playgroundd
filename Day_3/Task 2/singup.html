@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Signup Form</title>
+</head>
+<body>
+  <form action="/signup" method="post" aria-labelledby="signup-title">
+    <h2 id="signup-title">Signup</h2>
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required aria-required="true"><br><br>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required aria-required="true"><br><br>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required aria-required="true" aria-describedby="password-help"><br>
+    <small id="password-help">At least 8 characters, include a number.</small><br><br>
+
+    <label for="confirm">Confirm Password</label>
+    <input type="password" id="confirm" name="confirm" required aria-required="true"><br><br>
+
+    <label>
+      <input type="checkbox" name="terms" required aria-required="true">
+      I agree to the terms
+    </label><br><br>
+
+    <button type="submit" aria-label="Submit signup form">Sign Up</button>
+  </form>
+</body>
+</html>

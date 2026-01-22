@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Fundamentals Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Plain paragraph (element selector applies) -->
+  <p>This is a normal paragraph.</p>
+
+  <!-- Paragraph with class (class selector overrides element) -->
+  <p class="highlight">This paragraph is highlighted.</p>
+
+  <!-- Paragraph with ID (ID selector overrides class and element) -->
+  <p id="special" class="highlight">This paragraph is special.</p>
+
+  <!-- Paragraph inside a div (descendant selector applies) -->
+  <div>
+    <p>This paragraph is inside a div.</p>
+  </div>
+
+  <!-- Inline style (highest specificity) -->
+  <p style="color: orange;">This paragraph uses inline style.</p>
+</body>
+</html>
